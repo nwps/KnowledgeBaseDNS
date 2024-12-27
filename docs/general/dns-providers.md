@@ -1189,6 +1189,35 @@ Kids-friendly filter that also blocks ads, trackers, and malware
 |DNS-over-HTTPS|`https://dns.momou.ch/dns-query/unfiltered` | [Add to AdGuard](adguard:add_dns_server?address=https://dns.momou.ch/dns-query/unfiltered&name=dns.momou.ch), [Add to AdGuard VPN](adguardvpn:add_dns_server?address=https://dns.momou.ch/dns-query/unfiltered&name=dns.momou.ch) |
 |DNS-over-TLS|`tls://unfiltered.dns.momou.ch` | [Add to AdGuard](adguard:add_dns_server?address=tls://unfiltered.dns.momou.ch&name=unfiltered.dns.momou.ch), [Add to AdGuard VPN](adguardvpn:add_dns_server?address=tls://unfiltered.dns.momou.ch&name=unfiltered.dns.momou.ch) |
 
+### NWPS
+
+[NWPS.fi DNS](https://nwps.fi/wordpress/dns/) is located in Helsinki, Finland and provides DoH & DoT resolvers with three levels of filtering.
+
+#### Public
+
+Blocks ads, trackers, and malware
+
+| Protocol       | Address                                            |                |
+|----------------|----------------------------------------------------|----------------|
+|DNS-over-HTTPS|`https://ns.nwps.fi/dns-query/public` | [Add to AdGuard](adguard:add_dns_server?address=[https://ns.nwps.fi/dns-query/public](https://ns.nwps.fi/dns-query/public)&name=public.ns.nwps.fi), [Add to AdGuard VPN](adguardvpn:add_dns_server?address=https://ns.nwps.fi/dns-query/public&name=public.ns.nwps.fi) |
+|DNS-over-TLS|`tls://public.ns.nwps.fi` | [Add to AdGuard](adguard:add_dns_server?address=tls://public.ns.nwps.fi&name=public.ns.nwps.fi), [Add to AdGuard VPN](adguardvpn:add_dns_server?address=tls://public.ns.nwps.fi&name=public.ns.nwps.fi) |
+
+#### Family
+
+Kids-friendly filter that also blocks ads, trackers, and malware
+
+| Protocol       | Address                                            |                |
+|----------------|----------------------------------------------------|----------------|
+|DNS-over-HTTPS|`https://ns.nwps.fi/dns-query/family` | [Add to AdGuard](adguard:add_dns_server?address=[https://ns.nwps.fi/dns-query/family](https://ns.nwps.fi/dns-query/family)&name=family.ns.nwps.fi), [Add to AdGuard VPN](adguardvpn:add_dns_server?address=https://ns.nwps.fi/dns-query/family&name=family.ns.nwps.fi) |
+|DNS-over-TLS|`tls://family.ns.nwps.fi` | [Add to AdGuard](adguard:add_dns_server?address=tls://family.ns.nwps.fi&name=family.ns.nwps.fi), [Add to AdGuard VPN](adguardvpn:add_dns_server?address=tls://family.ns.nwps.fi&name=family.ns.nwps.fi) |
+
+#### Unfiltered
+
+| Protocol       | Address                                            |                |
+|----------------|----------------------------------------------------|----------------|
+|DNS-over-HTTPS|`https://ns.nwps.fi/dns-query/unfiltered` | [Add to AdGuard](adguard:add_dns_server?address=https://ns.nwps.fi/dns-query/unfiltered&name=unfiltered.ns.nwps.fi), [Add to AdGuard VPN](adguardvpn:add_dns_server?address=https://ns.nwps.fi/dns-query/unfiltered&name=unfiltered.ns.nwps.fi) |
+|DNS-over-TLS|`tls://unfiltered.ns.nwps.fi` | [Add to AdGuard](adguard:add_dns_server?address=tls://unfiltered.ns.nwps.fi&name=unfiltered.ns.nwps.fi), [Add to AdGuard VPN](adguardvpn:add_dns_server?address=tls://unfiltered.ns.nwps.fi&name=unfiltered.ns.nwps.fi) |
+
 ### OSZX DNS
 
 [OSZX DNS](https://dns.oszx.co/) is a small Ad-Blocking DNS hobby project.
